@@ -1,0 +1,15 @@
+#lista-videos{
+    list-style-type: none;
+    padding-left: 0px;
+    width: 400px;
+}
+
+#lista-videos img{
+    margin-right: 8px;
+}
+
+#youtube{
+    position: absolute;
+    right: 0px;
+    top: 200px;
+}

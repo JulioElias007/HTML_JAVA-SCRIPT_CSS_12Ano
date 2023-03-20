@@ -1,0 +1,63 @@
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:visited{
+    color: white;
+}
+
+nav a:hover{
+    color: yellow;
+}
+
+nav ul{
+    list-style-type: none;
+    background-color: brown;
+    padding-left: 0px;
+    border-radius: 4px;
+}
+
+nav li{
+    display: inline;
+    margin: 5px 10px;
+}
+
+form input[type="date"]{
+    border-style: dotted;
+    border-color: rgba(14, 196, 193);
+}
+
+section{
+    position: absolute;
+}
+
+#apresentacao{
+    left: 8px;
+    width: 150px;
+}
+
+#registo{
+    left: 164px;
+    right: 164px;
+}
+
+#instrucoes{
+    right: 8px;
+    width: 150px;
+}
+
+#apresentacao img{
+    width: 100px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgba(255, 255, 255, 0);
+}
+
+#apresentacao img.selecionado{
+    border-color: red;
+}
+
+#apresentacao h4, #instrucoes h4{
+    font-size: 18pt;
+}

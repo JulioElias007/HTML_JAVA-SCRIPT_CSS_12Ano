@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 3</title>
+  </head>
+  <body>
+    <section id="enunciado">
+      <h1>Enunciado</h1>
+      <p>Implemente um jogo em que o utilizador tenta adivinhar um número entre 1 e 100. Se a tentativa do utilizaor for mais alta que o número a adivinhar, dê-lhe a mensagem "Muito alto". Se a tentativa do utilizaor for mais baixa que o número a adivinhar, dê-lhe a mensagem "Muito baixo". Se ele acertar no número, o jogo termina.</p>
+      <p>Use o método <code>Math.random()</code> para gerar um número aleatório. Considere também o método <code>Math.floor()</code>.</p>
+      <p>Cada tentativa do utilizador deve ficar registada na lista de tentativas da secção <quote>jogo</quote></p>
+    </section>
+    <section id="jogo">
+      <form>
+        <label for="tentativa" id="a">Número: </label>
+        <input type="number" name="tentativa" id="tentativa">
+        <input type="button" value="Adivinhar!" id="advinhar">
+      </form>
+      <h2>Tentativas:</h2>
+      <ul id="ul">
+      </ul>
+    </section>
+    <script>
+      let num;
+      let e;
+        document.addEventListener('DOMContentLoaded', () => {
+        num = Math.round(Math.random()* (101 - 1));
+        console.log(num);
+      });
+
+        let a = document.querySelector("#advinhar");
+        let numero = document.querySelector("#tentativa");
+        let ull = document.querySelector("#ul");
+
+        a.addEventListener("click",function(evento){
+          if(num == numero.value){
+            e = document.createElement("p");
+            e.textContent = "O valor " + numero.value + " é o certo! PARABÉNS";
+            ull.appendChild(e);
+            a.disabled = true;
+            numero.disabled = true;
+          }else if(numero.value> num){
+            e = document.createElement("p");
+            e.textContent = "O valor " + numero.value + " é muito alto";
+            ull.appendChild(e);
+          }else if(numero.value< num){
+            e = document.createElement("p");
+            e.textContent = "O valor " + numero.value + " é muito baixo";
+            ull.appendChild(e);
+          }
+        });
+    </script>
+  </body>
+</html>

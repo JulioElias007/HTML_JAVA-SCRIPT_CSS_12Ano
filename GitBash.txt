@@ -1,0 +1,110 @@
+2220109@UED2421 MINGW64 ~
+$ cd ../xampp/htdocs/RC05_PauloMatos/IMC
+bash: cd: ../xampp/htdocs/RC05_PauloMatos/IMC: No such file or directory
+
+2220109@UED2421 MINGW64 ~
+$ cd c:/xampp/htdocs/RC05_PauloMatos/IMC
+
+2220109@UED2421 MINGW64 /c/xampp/htdocs/RC05_PauloMatos/IMC
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+2220109@UED2421 MINGW64 /c/xampp/htdocs/RC05_PauloMatos/IMC
+$ dir
+index.html
+
+2220109@UED2421 MINGW64 /c/xampp/htdocs/RC05_PauloMatos/IMC
+$ git clone https://github.com/JulioElias007/RC050720M_JulioElias_2220109.git
+Cloning into 'RC050720M_JulioElias_2220109'...
+remote: Enumerating objects: 17, done.
+remote: Counting objects: 100% (17/17), done.
+remote: Compressing objects: 100% (15/15), done.
+remote: Total 17 (delta 3), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (17/17), 166.21 KiB | 1.35 MiB/s, done.
+Resolving deltas: 100% (3/3), done.
+
+2220109@UED2421 MINGW64 /c/xampp/htdocs/RC05_PauloMatos/IMC
+$ dir
+RC050720M_JulioElias_2220109  index.html
+
+2220109@UED2421 MINGW64 /c/xampp/htdocs/RC05_PauloMatos/IMC
+$ cd RC050720M_JulioElias_2220109
+
+2220109@UED2421 MINGW64 /c/xampp/htdocs/RC05_PauloMatos/IMC/RC050720M_JulioElias_2220109 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+2220109@UED2421 MINGW64 /c/xampp/htdocs/RC05_PauloMatos/IMC/RC050720M_JulioElias_2220109 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+2220109@UED2421 MINGW64 /c/xampp/htdocs/RC05_PauloMatos/IMC/RC050720M_JulioElias_2220109 (main)
+$ git add .
+
+2220109@UED2421 MINGW64 /c/xampp/htdocs/RC05_PauloMatos/IMC/RC050720M_JulioElias_2220109 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   index.html
+
+
+2220109@UED2421 MINGW64 /c/xampp/htdocs/RC05_PauloMatos/IMC/RC050720M_JulioElias_2220109 (main)
+$ git commit -m '1.0'
+[main 213313a] 1.0
+ Committer: Julio Dinis Costa Elias <2220109@alunos.escoladigital.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 13 insertions(+)
+ create mode 100644 index.html
+
+2220109@UED2421 MINGW64 /c/xampp/htdocs/RC05_PauloMatos/IMC/RC050720M_JulioElias_2220109 (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+2220109@UED2421 MINGW64 /c/xampp/htdocs/RC05_PauloMatos/IMC/RC050720M_JulioElias_2220109 (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 490 bytes | 490.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/JulioElias007/RC050720M_JulioElias_2220109.git
+   354cdf6..213313a  main -> main
+
+2220109@UED2421 MINGW64 /c/xampp/htdocs/RC05_PauloMatos/IMC/RC050720M_JulioElias_2220109 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+2220109@UED2421 MINGW64 /c/xampp/htdocs/RC05_PauloMatos/IMC/RC050720M_JulioElias_2220109 (main)
+$

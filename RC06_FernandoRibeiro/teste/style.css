@@ -1,0 +1,35 @@
+.azul_escuro{
+    color: blue;
+}
+.azul_claro{
+    color: deepskyblue;
+}
+
+div{
+    position: absolute;
+}
+
+#Cursos{
+    right: 8px;
+    width: 150px;
+} 
+#TDD3D{
+    right: 8px;
+    width: 150px;
+} 
+#TF{
+    right: 8px;
+    width: 150px;
+} 
+#TGEI{
+    right: 8px;
+    width: 150px;
+} 
+#TGPSI{
+    right: 8px;
+    width: 150px;
+}
+#TM{
+    right: 8px;
+    width: 150px;
+} 

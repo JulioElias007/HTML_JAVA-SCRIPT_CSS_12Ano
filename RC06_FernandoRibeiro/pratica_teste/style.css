@@ -1,0 +1,15 @@
+#dia, #mes{
+  width: 3em;
+}
+
+#ano{
+  width: 6em;
+}
+
+.vermelho{
+  color: red;
+}
+
+.amarelo{
+  color: goldenrod;
+}
